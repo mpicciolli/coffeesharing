@@ -6,11 +6,11 @@ It comes from the "caffe sospeso" tradition, born Italy's southern city of Naple
 
 Be free to fork the project and propose your improvements. ;)
 
-```Name ............. Coffee Sharing
-Author ........... William Hubault
-Language ......... Ruby
-Framework ........ Ruby on Rails (v3.2.6)
-License .......... GPLv3
-Version .......... 1.0
-URL .............. http://coffeesharing.herokuapp.com/```
+```Name ............. Coffee Sharing```
+```Author ........... William Hubault```
+```Language ......... Ruby```
+```Framework ........ Ruby on Rails (v3.2.13)```
+```License .......... GPLv3```
+```Version .......... 1.0```
+```URL .............. http://coffeesharing.herokuapp.com/```
 
