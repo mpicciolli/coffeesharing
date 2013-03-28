@@ -1,14 +1,28 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <title>Coffeesharing</title>
+<title>Coffee Sharing</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <%= stylesheet_link_tag    "application", :media => "all" %>
+  <!--[if lt IE 7]><style media="screen" type="text/css">@import "css/ie6.css";</style><![endif]-->
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <div id="page">
+    <div id="header">
+      <div class="background">
+        <h1><a href="/">CoffeeSharing</a></h1>
+        <%= render 'layouts/menu' %>
+      </div>
+    </div>
+    <div id="content">
+      <%= yield %>
+    </div>
+    <div id="footer">
+      <p>©2013 CoffeeSharing. Design by <a href="http://www.dellustrations.com/">Dellustrations.com</a> &amp; code by <a href="http://www.williamhubault.com">William Hubault</a>. <strong><a href="https://github.com/coffeesharing/coffeesharing">[FORK THIS PROJECT]</a></strong></p>
+      <%= render 'layouts/menu' %>
+    </div>
+  </div>
 </body>
 </html>
