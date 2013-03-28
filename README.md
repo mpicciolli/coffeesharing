@@ -20,6 +20,6 @@ Be free to fork the project and propose your improvements. ;)
 
 **Version   :** 1.0
 
-**URL       :** http://coffeesharing.herokuapp.com/
+**URL       :** http://www.coffeesharing.com/
 
 ---
