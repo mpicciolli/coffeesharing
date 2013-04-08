@@ -1,5 +1,16 @@
+<% if ENV['MONGOLAB_URI'] %>
+  <% uri = URI.parse(ENV['MONGOLAB_URI']) %>
 production:
-  uri: <%= ENV['MONGOHQ_URL'] %>
+  <<: *defaults
+  sessions:
+    default:
+      <<: *default_session
+      database: <%= uri.path.sub('/','') %>
+      username: <%= uri.user %>
+      password: <%= uri.password %>
+      hosts:
+        - <%= uri.host %>:<%= uri.port %>
+<% end %>
 
 development:
   # Configure available database sessions. (required)
