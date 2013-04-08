@@ -1,25 +1,23 @@
-# ENGLISH
+# POLISH
 
-en:
-  lang: English
+pl:
+  lang: Polish
   nothing_yet: Nothing yet. More informations soon...
   story_title: Have you heard about <span>Suspended Coffees</span>?
   story: |
-    <p><b>Please take 2 minutes to read this story if you haven't already read it somewhere on facebook or in a newspaper...</b></p>
-    <p>We enter a little coffeehouse with a friend of mine and give our order.
-    While we're approaching our table two people come in and they go to the counter:</p>
-    <span class="quote">Five coffees, please. Two of them for us and three suspended.</span>
-    They pay for their order, take the two and leave. I ask my friend:
-    <span class="quote">What are those 'suspended' coffees?</span>
-    <span class="quote">Wait for it and you will see...</span>
-    <p>Some more people enter. Two girls ask for one coffee each, pay and go. The next order was for seven coffees and it was made by three lawyers: three for them and four 'suspended'.</p>
-    <p>While I still wonder what's the deal with those 'suspended' coffees, I enjoy the sunny weather and the beautiful view towards the square in front of the cafe.<br/>
-    Suddenly a man dressed in shabby clothes who looks like a beggar comes in through the door and kindly asks:</p>
-    <span class="quote">Do you have a suspended coffee?</span>
-    <p><i>It's simple... people pay in advance for a coffee meant for someone who cannot afford a warm beverage. It is generally an anonymous act of charity.</i></p>
-    <p class="note">In some places, you can not only order a coffee, but also a <b>sandwich</b> or a <b>full meal</b>.
-    This can enable homeless people to have something a bit more nutritious.
-    <i>It doesn't have to be expansive, and can go from $1 to $13.</i></p>
+    Razem z przyjacielem wchodzimy do małej kawiarenki i składamy zamówienie. Kiedy podchodzimy do naszego stolika, dwóch mężczyzn wchodzi do środka i zamawia:
+    - Poprosimy pięć kaw. Dwie dla nas i trzy kawy „w zawieszeniu”.
+    Płacą, zabierają swoje dwie kawy i opuszczają miejsce.
+    Pytam mojego przyjaciela:
+    - Co to za kawy „w zawieszeniu”?
+    - Poczekaj, zaraz zobaczysz…
+    W międzyczasie do kawiarni wchodzą kolejni ludzie. Dwie dziewczyny zamawiają kawę, płacą i wychodzą. Później, przychodzi trzech prawników, zamawiają siedem kaw, trzy dla nich oraz cztery „w zawieszeniu”.
+    Po raz kolejny zastanawiam się, czym do cholery są te kawy „w zawieszeniu”. Po chwili jednak drążyć temat i skupiłem się na podziwianiu pięknego widoku naprzeciw kawiarni.
+    Nagle w drzwiach stanął mężczyzna w znoszonych ubraniach i zapytał:
+    - Macie może kawę w zawieszeniu?
+    To proste! Klienci płacą z góry za kawę dla kogoś, kogo nie stać na ciepły napój. Kawa “w zawieszeniu” (caffe sospeso) to tradycja, która narodziła się we Włoszech, w Neapolu. Rozprzestrzeniła się jednak na cały świat. W niektórych miejscach, możesz zamówić nie tylko kawę, ale także kanapkę albo pełny posiłek „w zawieszeniu”.
+    Tuż po wojnie wielu ludzi straciło wszystko, co posiadało. Nie stać ich było nawet na kawę. Dzisiaj, kiedy ten czarny gorący napój nie jest już traktowany jako luksus, ale jako jedno z podstawowych praw które przysługują każdemu Neapolitańczykowi, ludzie, których stać na kawę, mają zwyczaj płacić za dwie: za swoją oraz za kawę dla pierwszego mniej zamożnego kolegi, który przypadkiem wejdzie do kawiarni. Barman wówczas pyta: „Może kawa dla Pana?”, co oznacza “Mamy dla Pana darmową kawę, jeżeli nie może Pan zamówić jej samemu”.
+    Darczyńca i odbiorca pozostawali anonimowi wobec siebie, aby ochronić hojność oraz przyjemność z picia kawy przed niedostatkiem.
   history_title: Where does it come from?
   history: |
     <p>This suspended coffee (originally, "caffe sospeso" or "caffè pagato") tradition is born in Italy's southern city of Naples, but it has spread all over the world.</p>
@@ -38,10 +36,10 @@ en:
     </ul>
     <b>As a coffeehouse owner:</b>
     <ul>
-      <li><u>Free advertisement</u> for your business on the Internet,</li>
+      <li><u>Free advertisement</u> for your place on the Internet,</li>
       <li>Help to create a <u>trusting relationships</u> with your customers,</li>
       <li>Curious <u>new people</u> can come in if they see a paper on your door/window,</li>
-      <li><u>Easy</u> and <u>quick</u> to do: Take a bowl and put the tickets in it, or write the prepaid orders on a paper,</li>
+      <li><u>Easy</u> and <u>quick</u> to do: Take a bowl and put the , or write the prepaid orders on a paper,</li>
       <li>You can put a paper outside saying that you serve FREE COFFEE/MEAL between <u>certain hours only</u> to avoid having to serve them during rush hours,</li>
       <li>Only the customer who want to participate can do it,</li>
       <li>It cost you <u>no money</u>,</li>

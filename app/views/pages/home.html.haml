@@ -1,0 +1,51 @@
+﻿#leftcol
+	.block
+		.block-top
+		.block-content
+
+			%h2=raw t(:story_title)
+			= image_tag 'homeless.jpg', width:'160px', style:'float:right; margin: 10px 0 0 10px;'
+			%p=raw t(:story)
+			%br
+
+			%h2=raw t(:history_title)
+			-# image_tag 'map.png', style:'float:right; margin: 10px 0 0px 10px;'
+			%p=raw t(:history)
+			%br
+
+			%h2=raw t(:why_you_title)
+			= image_tag 'coffee.png', width:'100px', style:'float:right; margin-top:15px'
+			%p=raw t(:why_you)
+			%br
+
+			%h2=raw t(:who_follow_title)
+			%p=raw t(:who_follow, count:13, countries:3)
+			= link_to t(:list_places), controller:'places', action:'index', class:'yellow-button'
+		.block-bottom
+
+#rightcol
+	-# Search
+	.block
+		.block-top
+		.block-content
+			%h3
+				%span= t(:statistics)
+			%ul
+				%li=raw t(:stat_places, count:@places.size)
+				%li=raw t(:stat_countries, count:@countries.size)
+				%li=raw t(:stat_cities, count:@cities.size)
+		.block-bottom
+	.block
+		.block-top
+		.block-content
+			%h3
+				%span= t(:recently_added)
+			%ul
+				- @recent.each do |place|
+					%li
+						= link_to place.name.truncate(15), place
+						%strong= place.address.city.truncate(8)
+			%br
+			%a{href:url_for(controller:'places', action:'index'), class:'yellow-button'}
+				%span= t(:see_others)
+		.block-bottom

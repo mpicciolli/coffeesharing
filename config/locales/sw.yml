@@ -1,7 +1,7 @@
-# ENGLISH
+# SWEDISH
 
-en:
-  lang: English
+sw:
+  lang: Swedish
   nothing_yet: Nothing yet. More informations soon...
   story_title: Have you heard about <span>Suspended Coffees</span>?
   story: |
@@ -64,4 +64,5 @@ en:
   about: About
   list_places: List places
   posters: Posters
+
 

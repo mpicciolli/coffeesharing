@@ -1,0 +1,85 @@
+# FRENCH
+
+fr:
+  lang: French
+  nothing_yet: Cette page est vide pour le moment.<br/>Plus d'informations bientot...
+  story_title: Connaissez-vous les <span>Cafés Suspendus</span> ?
+  story: |
+    <p><b>Merci de prendre 2 minute a lire l'histoire suivante si vous ne l'avez pas deja lu sur
+    facebook ou dans un journal... Cette histoire vous réchauffera mieux qu'un café lors d'une froide journée d'hivers.</b></p>
+    <p>Nous entrons dans un petit café avec un ami et commandons un café chacun.
+    Alors que nous nous approchons de notre table deux personnes entrent à leur tour et vont vers le comptoir:</p>
+    <span class="quote">Cinq cafés, s'il vous plaît. Deux pour nous et trois « en attente ».</span>
+    Ils paient leur commande, prennent les deux cafés et partent. Je demande à mon ami:
+    <span class="quote">C'est quoi ces cafés « en attente » ?</span>
+    <span class="quote">Attends, et tu verras...</span>
+    <p>D'autres personnes entrent. Deux filles demandent chacune un café, payent et partent. Ensuite
+    trois avocats entrent, ils commandent 7 cafés: trois pour boire de suite et quatre «en attente».</p>
+    <p>Alors que je me demande encore à quoi riment ces cafés « en attente », je me laisse aller à profiter
+    beau temps dehors et de la belle vue sur la place en face du café. Soudain, un homme vêtu d'habits
+    déchirés vient à la porte et demande :</p>
+    <span class="quote">Avez-vous un café en attente?</span>
+    <p><i>C'est simple... les gens paient à l'avance un café destiné à quelqu'un qui ne peut pas
+    se permettre de commander une boisson chaude. C'est en general un act anonyme de charité.</i></p>
+    <p class="note">A certains endroits, il est possible de commander non seulement un café, mais aussi un
+    <b>sandwich</b> ou un <b>repas complet</b>. Cela permet aux sans-abris de pouvoir avoir quelque chose
+    d'un peu plus nutritif. <i>Cela n'est pas forcement quelque chose de cher, et peut aller de 1€ à 13€.</i></p>
+  history_title: D'où cela vient-t-il?
+  history: |
+    <p>La tradition des cafés « en attente » (initialement, "caffe sospeso" or "caffè pagato") a commencé
+    à Naples, au sud de l'Italie, mais s'est répandue depuis dans le monde entier.</p>
+    <p>Historiquement, juste après la guerre, beaucoup d'hommes avaient perdu tout ce qu'ils avaient,
+    et ne pouvaient as s'offrir un café. Cette chaude boisson n'est pas considéré comme une friandise,
+    mais plutot comme un droit fondamental pour un homme, dans la vie de tout Napolitain. Ceux qui peuvent
+    encore se permettre d'en avoir un ont prit l'habitude d'en payer deux: un pour eux, et un autre pour la
+    prochainne personne moins fortuné qui se promenerait par hazard dans un café, restaurant ou bar.
+    Le serveur dirait alors <i>« Voulez-vous un café, monsieur? »</i>, ce qui veut dire: <i>Il y a un café
+    en attente qui a été prépayé pour vous, si vous ne pouvez pas vous permettre d'en acheter un.</i></p>
+    <p>Certains prétendent en 2010 que cette tradition a plus de 100 ans.</p>
+    <p>Le donateur et le receveur sonr normalement anonyme l'un l'autre, afin de protéger la générosité,
+    la fierté, et le plaisir du café au-delà des difficultés d'argent.</p>
+  why_you_title: Pourquoi participer?
+  why_you: |
+    <b>En tant que bénévole:</b>
+    <ul>
+      <li>Cela peut être <u>peu cher</u> (a partir de 1€),</li>
+      <li>Vous pouvez pre-payer ce que vous voulez (pas forcément un café),</li>
+      <li>Vous pouvez le faire seulement de temps en temps, lorsque vous êtes de bonne humeur,</li>
+      <li>Il s'agit d'une bonne action facile à réaliser.</li>
+    </ul>
+    <b>En tant que propriétaire de café:</b>
+    <ul>
+      <li><u>Publicité gratuite</u> de votre établissement sur internet,</li>
+      <li>Aide a créer une <u>relation de confiance</u> avec vos clients,</li>
+      <li>De potentiels <u>prospects curieux</u> peuvent entrer si ils voient un papier sur votre
+      porte ou fenetre,</li>
+      <li><u>Facile</u> et <u>rapide</u> a mettre en oeuvre: Prennez un bol et mettez les tickets dedans,
+      ou bien tenez les comptes sur un bout de papier,</li>
+      <li>Il est possible de mettre un papier dehors indiquant que vous servez des CAFES & REPAS GRATUIT
+      entre <u>certaines heures seulement</u> afin d'éviter de servir les commandes prépayés pendant les
+      heures de rush,</li>
+      <li>Seulement les clients intéressés peuvent participer,</li>
+      <li>Cela ne coute <u>aucun argent</u>.</li>
+    </ul>
+    <p><i><u>Note</u>: Nous sommes egalement à la recherche de toute personne capable de nous aider a diffuser
+    le message aux cafés/restaurants, de gens qui peuvent nous aider sur l'aspect graphique / logo / posters,
+    ou bien toute personne capable de nous aider au developement et traduction du site.</i></p>
+  who_follow_title: Où est il possible de faire cela ?
+  who_follow: |
+    <p>Beaucoup de lieux (cafés, bars, restaurants, hotels) acceptent les pré-commandes pour des cafés en attente, et cela à travers le monde entier.
+    Il est possible que certains endroits n'en aient pas encore entendu parler. Mais n'hésitez pas a leur en parler afin qu'ils s'enregistrent sur le site gratuitement et en 5 minutes.</p>
+    <p>Nous sommes un groupe de bénévoles qui ne gagnent aucun argent a faire et gérer ce site, donc il se peut que la confirmation de l'enregistrement puisse prendre jusqu'a 54h.
+    Pour toute question ou complement d'information, vous pouvez nous contacter à contact@coffeesharing.com</p>
+    <p>Ce site liste actuellement <u><b>%{count} lieux</b></u> dans <u><b>%{countries} pays</b></u>.</p>
+  recently_added: Ajouts récent
+  statistics: Statistiques
+  stat_places: Lieux <strong>%{count}</strong>
+  stat_countries: Pays <strong>%{count}</strong>
+  stat_cities: Villes <strong>%{count}</strong>
+  see_others: Consulter les autres
+  countries: Pays
+  places: Lieux
+  about: A Propos
+  list_places: Acceder a la liste
+  posters: Affiches
+

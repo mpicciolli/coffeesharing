@@ -82,7 +82,7 @@ h1  a{
 #content{
 	width:100%;
 	overflow:hidden;
-	margin:9px 0 0;
+	margin:9px 0 20px;
 	color:#90AF94;
 }
 
@@ -122,6 +122,9 @@ h1  a{
 	font:bold 2.09em 'Trebuchet MS', Arial, sans-serif;
 	color:#A4C0A8;
 	background:url(<%=asset_path "theme/bg-h2.gif"%>) repeat-x 0 100%;
+}
+#rightcol .block h3 {
+  font-size: 1.5em;
 }
 #leftcol .block h2 span,
 #rightcol .block h3 span{
@@ -375,12 +378,14 @@ h1  a{
 /* footer */
 
 #footer{
-	width:860px;
+	position: fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height: 20px;
 	overflow:hidden;
-	margin:12px 24px 0;
 	padding:16px 17px 14px;
 	font-size:0.84em;
-	line-height:1em;
 	background:#333333;
 	color:#8D8D8D;
 }

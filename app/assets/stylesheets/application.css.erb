@@ -1,0 +1,79 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require 'main'
+ *= require 'gh-fork-ribbon'
+ *= require 'flags'
+ *= require 'gmaps4rails'
+ *= require_self
+ */
+
+.note {
+  min-height: 20px;
+  margin: 10px;
+  padding: 5px 10px 5px 60px;
+  border: 1px dashed #8d4c1b;
+  border-radius: 5px;
+  background: url(<%=asset_path "info.png"%>) 5px center no-repeat #fff2da;
+  color: #8d4c1b;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+.quote {
+  margin: 1px 0;
+  display: block;
+  font-style: italic;
+  padding-left: 10px;
+  color: #afc0b1;
+}
+.quote:before, .quote:after {
+  font-family: Arial;
+  font-size: 18pt;
+  color: #c4d1c6;
+  text-align: center;
+  padding: 0 10px;
+}
+.quote:before { content: open-quote; }
+.quote:after { content: close-quote; }
+
+h1.shop {
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  padding: 0 20px;
+  position: absolute;
+  top: 45px;
+}
+h1.shop span {
+  -webkit-transform: rotateX(45deg);
+  transform: rotateX(45deg);
+  display: block;
+  line-height: 100px;
+  width: 900px;
+  text-align: center;
+  font-size:2.8em;
+  color: white;
+}
+
+.showplace .block-content b {
+  padding-bottom: 10px;
+}
+.showplace .block-content div {
+  padding-left: 10px;
+}
+
+

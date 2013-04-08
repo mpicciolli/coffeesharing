@@ -9,6 +9,10 @@ gem 'rails', '3.2.13'
 gem 'haml-rails'                                 # Use HAML instead of ERB to generate html files
 gem 'jquery-rails'                               # Use jQuery (and not Prototype) as JS framework
 gem 'rails-i18n'                                 # Translations for ruby on rails
+gem 'http_accept_language'                       # Extract the accepted language from http request
+gem 'mongoid', '~> 3.0.0'                        # NoSQL Database (mongodb)
+gem 'mongoid_spacial'                            # Geo special extension for mongoid
+gem 'gmaps4rails'                                # Google Maps for ruby on rails
 
 # Gems used only in **PRODUCTION** !
 group :production do

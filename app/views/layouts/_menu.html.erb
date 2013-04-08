@@ -1,5 +1,13 @@
+<div class="languages">
+  <a class="flag flag-us <%=' active' if(I18n.locale == :en) %>" alt="English" href="?lang=en"></a>
+  <a class="flag flag-fr <%=' active' if(I18n.locale == :fr) %>" alt="French" href="?lang=fr"></a>
+  <a class="flag flag-se <%=' active' if(I18n.locale == :sw) %>" alt="Swedish" href="?lang=sw"></a>
+  <a class="flag flag-pl <%=' active' if(I18n.locale == :pl) %>" alt="Polish" href="?lang=pl"></a>
+</div>
 <ul>
-  <li class="active"><%= link_to 'Home', '/' %></li>
-  <li               ><%= link_to 'About us', '/about' %></li>
-  <li               ><%= link_to 'Contact Us', '/contact' %></li>
+<!--
+  <li class="active"><%= link_to 'Home', controller:'pages', action:'home' %></li>
+-->
+  <li               ><%= link_to t(:about), controller:'pages', action:'home' %></li>
+  <li               ><%= link_to t(:places), controller:'places', action:'index' %></li>
 </ul>

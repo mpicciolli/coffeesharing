@@ -1,0 +1,35 @@
+#leftcol
+  .block
+    .block-top
+    .block-content
+      %h2= t(:places)
+      - @countries.each do |country,places|
+        %h3
+          %a{name:country}= country
+        - places.each do |place|
+          %h4
+            = link_to place.name, place
+            = "(#{place.address.city})"
+        %br
+    .block-bottom
+
+#rightcol
+  .block
+    .block-top
+    .block-content
+      %h3
+        %span= t(:statistics)
+      %ul
+        %li=raw t(:stat_places, count:@places.size)
+        %li=raw t(:stat_countries, count:@countries.size)
+        %li=raw t(:stat_cities, count:@cities.size)
+    .block-bottom
+  .block
+    .block-top
+    .block-content
+      %h3
+        %span= t(:countries)
+      %ul
+        - @countries.each do |country,places|
+          %li= link_to country, "##{country}"
+    .block-bottom

@@ -1,0 +1,27 @@
+%h1.shop
+  %span= @place.name.truncate(16)
+
+#leftcol.showplace
+  .block
+    .block-top
+    .block-content
+      %p
+        %b Contact:
+        .phone= @place.phone
+        .email= @place.email
+        .website= @place.website
+      %p
+        %b Other:
+        .wifi="- Free WiFi Access" if @place.wifi
+        .takeout="- Take away" if @place.takeout
+        .notes=simple_format @place.notes
+    .block-bottom
+
+#rightcol.showplace
+  .block
+    .block-top
+    .block-content
+      %p
+        %b Address:
+        .address=simple_format @place.address.to_s
+    .block-bottom

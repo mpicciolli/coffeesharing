@@ -10,7 +10,7 @@ Be free to fork the project and propose your improvements. ;)
 
 **Name      :** Coffee Sharing
 
-**Author    :** William Hubault
+**Author    :** William Hubault <william@coffeesharing.com>
 
 **Language  :** Ruby
 
@@ -23,3 +23,20 @@ Be free to fork the project and propose your improvements. ;)
 **URL       :** http://www.coffeesharing.com/
 
 ---
+
+
+Brainstorming
+-------------
+
+Note: Give all your ideas. This is a sh*t website coded in one weekend. Nothing existed and I thought that people needed something since it's not easy to know which place accept suspended coffees otherwise. Some of them seems to refuse the movement. If you have any question/remarks/advices/ideas, drop me a mail at the address above or use http://coffeesharing.uservoice.com/.
+
+* Pay online for a suspended coffee (complicated to send back the money)
+* People can vote for coffee places (cheat? :s)
+* Rank system (like foursquare... but would it kill the anonymous part?)
+* Online shop (minimal prices, no money taken by admins)
+* Better design?!
+
+* Cache
+* Add category
+* Form to register online (without manual activation? add Captcha)
+
