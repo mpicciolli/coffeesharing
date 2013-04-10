@@ -1,7 +1,7 @@
 # FRENCH
 
 fr:
-  lang: French
+  lang: Français
   nothing_yet: Cette page est vide pour le moment.<br/>Plus d'informations bientot...
   story_title: Connaissez-vous les <span>Cafés Suspendus</span> ?
   story: |
@@ -82,4 +82,5 @@ fr:
   about: A Propos
   list_places: Acceder a la liste
   posters: Affiches
+  add_yours: Ajouter le votre
 
