@@ -1,0 +1,83 @@
+# DUTCH
+
+nl:
+  lang: Dutch
+  nothing_yet: Binnenkort...
+  story_title: Heb je gehoord over <span>uitgestelde koffie</span>?
+  story: |
+    <p><b>Neem alsjeblieft 2 minuten om dit verhaal te lezen als je het nog niet ergens op Facebook
+    of in de krant...</b></p>
+    <p>We lopen een klein koffiehuis binnen met een vriend van mij en geven onze bestelling.
+    Terwijl wij naar onze tafel gaan komen twee mannen binnen en hun gaan naar de toonbank:</p>
+    <span class="quote">Vijf koffie, alsjeblieft. Twee ervan voor ons en drie opgesteld.</span>
+    Ze betalen voor hun bestelling, nemen hun twee koffie en vertrekken. Ik vraag mijn vriend:
+    <span class="quote">Wat zijn die "opgestelde" koffie?</span>
+    <span class="quote">Wacht en je zult het zien....</span>
+    <p>Er komen nog meer mensen binnen. Twee meiden bestellen beide een koffie, ze betalen en vertrekken.
+    De volgende bestelling was voor 7 koffie door 3 advocaten: <i>drie voor hun en vier "opgesteld"</i>.</p>
+    <p>Terwijl ik me nog steeds af vraag wat de bedoeling is met die "opgestelde" koffie, geniet ik van
+    het zonnige weer en het prachtige uitzicht van het plein voor het café.<br/>
+    Opeens een man in voddige kleding die eruit ziet als een bedelaar komt door de deur binnen en vraagt vriendelijk:</p>
+    <span class="quote">Heeft u een opgestelde koffie?</span>
+    <p><i>Het is simpel... Mensen betalen van te voren voor een koffie bedoelt voor iemand die zelf
+    niet een warme drank kan betalen. Het is normaal gesproken een anonieme daad van liefdadigheid.</i></p>
+    <p class="note">Op sommige plaatsen, kun je niet alleen een koffie bestellen, maar ook een <b>broodje</b>
+    of een <b>hele maaltijd</b>. Dit kan daklozen in staat stellen iets voedzamers te hebben.
+    <i>Het hoeft niet duur te zijn, en kan gaan van $1 tot $13.</i></p>
+  history_title: Waar komt dit vandaan?
+  history: |
+    <p>Deze opgestelde koffie (origineel, "caffe sospeso" of "caffè pagato") is ontstaan in Italië's
+    zuiderlijke stad Napels, maar het heeft zich over de hele wereld verspreid.</p>
+    <p>Historisch, direct na de oorlog, hadden veel mannen alles verloren wat ze hadden en konden
+    geeneens een koffie betalen. Nu, dat de zwarte hete vloeibare plezier niet meer wordt gezien als
+    een traktatie, maar nogal een fundamentele menselijke recht in het leven van elke Neapolitaan,
+    deze mannen die zich nog steeds konden veroorloven om er 1 te hebben, maakten er een gewoonte
+    van om te betalen voor twee: een dronken ze op, de ander hielden ze tegoed, die was voor de
+    eerste minder rijke edelman die gewoon binnen zou lopen in het koffiehuis, restaurant of bar.
+    De barman zou dan zeggen: <i>« zou u een koffie willen meneer? »</i>, Wat betekende:
+    <i>« er is een koffie betaalt voor u, als u zich er zelf geen 1 kunt veroorloven. »</i>
+    <p>Een rekening uit 2010 vordert dat deze traditie al meer dan 100 jaar oud is.</p>
+    <p>De ever en de ontvanger bleven anoniem voor elkaar, om vrijgevigheid, eer en het genot van
+    koffie zonder ontberingen te beschermen.</p>
+  why_you_title: Waarom zou je meedoen?
+  why_you: |
+    <b>Als een vrijwilliger:</b>
+    <ul>
+      <li>Het kan <u>goedkoop</u> (vanaf $1),</li>
+      <li>Je kan vooruitbetalen wat je zelf wilt,</li>
+      <li>Je kan het alleen van tijd tot tijd doen, wanneer je vrolijk bent.</li>
+    </ul>
+    <b>Als een koffiehuis eigenaar:</b>
+    <ul>
+      <li><u>Gratis adverteren</u> voor u bedrijf op internet,</li>
+      <li>Het helpt <u>vertrouwelijke</u> banden op te bouwen met u klanten,</li>
+      <li><u>Nieuwe nieuwsgierige mensen</u> kunnen binnenkomen als ze het papier op uw ruit hebben gezien,</li>
+      <li>Je kan een papier buiten ophangen waarop staat dat u GRATIS KOFFIE/MAALTIJDEN seveert op <u>bepaalde
+      uren alleen</u> om te voorkomen dat u deze moet serveren in piekuren.</li>
+      <li>Alleen de klant die wil meedoen kan meedoen,</li>
+      <li>Het kost u <u>geen geld</u>.</li>
+    </ul>
+    <p><i><u>Opmerking</u>: We zijn ook op zoek naar mensen die kunnen helpen met het verspreiden van dit bericht
+    in koffiehuizen, een paar mensen die kunnen helpen met ontwerpen / logo's / posters, of iemand die wil deelnemen
+    aan de ontwikkeling van de website/vertalingen.</i></p>
+  who_follow_title: Welke plaatsen doen het?
+  who_follow: |
+    <p>Heel veel plaatsen (hotels, bars, restaurants, koffiehuizen) over de hele wereld accepteren opgestelde koffie.
+    Sommige van hen hebben er nog niet over gehoord, maar u bent vrij om het erover te hebben met hun zodat zij zich
+    gratis kunnen registreren op deze website in 5 minuten.</p>
+    <p>Wij zijn een groep vrijwilligers die geen geld aannemen voor het bouwen en beheren van deze website, dus de
+    tijd van handmatige registratie bevestigingen kan variëren tot 54 uur. U bent vrij om te mailen voor vragen of
+    aanvullende informatie naar contact@coffeesharing.com</p>
+    <p>De website maakt momenteel een lijst met <u><b>%{count} plaatsen</b></u> in <u><b>%{countries} landen</b></u>.</p>
+  recently_added: Recent toegevoegd
+  statistics: Statistiek
+  stat_places: Plaatsen <strong>%{count}</strong>
+  stat_countries: Landen <strong>%{count}</strong>
+  stat_cities: Steden <strong>%{count}</strong>
+  see_others: Zie anderen
+  countries: Countries
+  places: Plaatsen
+  about: Over
+  list_places: Lijst plaatsen
+  posters: Posters
+  add_yours: Voeg uw plaats

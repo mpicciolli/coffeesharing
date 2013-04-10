@@ -2,64 +2,79 @@
 
 pl:
   lang: Polish
-  nothing_yet: Nothing yet. More informations soon...
-  story_title: Have you heard about <span>Suspended Coffees</span>?
+  nothing_yet: Już wkrótce...
+  story_title: Czy słyszałeś o <span>zawieszonej kawie</span>?
   story: |
-    Razem z przyjacielem wchodzimy do małej kawiarenki i składamy zamówienie. Kiedy podchodzimy do naszego stolika, dwóch mężczyzn wchodzi do środka i zamawia:
-    - Poprosimy pięć kaw. Dwie dla nas i trzy kawy „w zawieszeniu”.
-    Płacą, zabierają swoje dwie kawy i opuszczają miejsce.
-    Pytam mojego przyjaciela:
-    - Co to za kawy „w zawieszeniu”?
-    - Poczekaj, zaraz zobaczysz…
-    W międzyczasie do kawiarni wchodzą kolejni ludzie. Dwie dziewczyny zamawiają kawę, płacą i wychodzą. Później, przychodzi trzech prawników, zamawiają siedem kaw, trzy dla nich oraz cztery „w zawieszeniu”.
-    Po raz kolejny zastanawiam się, czym do cholery są te kawy „w zawieszeniu”. Po chwili jednak drążyć temat i skupiłem się na podziwianiu pięknego widoku naprzeciw kawiarni.
-    Nagle w drzwiach stanął mężczyzna w znoszonych ubraniach i zapytał:
-    - Macie może kawę w zawieszeniu?
-    To proste! Klienci płacą z góry za kawę dla kogoś, kogo nie stać na ciepły napój. Kawa “w zawieszeniu” (caffe sospeso) to tradycja, która narodziła się we Włoszech, w Neapolu. Rozprzestrzeniła się jednak na cały świat. W niektórych miejscach, możesz zamówić nie tylko kawę, ale także kanapkę albo pełny posiłek „w zawieszeniu”.
-    Tuż po wojnie wielu ludzi straciło wszystko, co posiadało. Nie stać ich było nawet na kawę. Dzisiaj, kiedy ten czarny gorący napój nie jest już traktowany jako luksus, ale jako jedno z podstawowych praw które przysługują każdemu Neapolitańczykowi, ludzie, których stać na kawę, mają zwyczaj płacić za dwie: za swoją oraz za kawę dla pierwszego mniej zamożnego kolegi, który przypadkiem wejdzie do kawiarni. Barman wówczas pyta: „Może kawa dla Pana?”, co oznacza “Mamy dla Pana darmową kawę, jeżeli nie może Pan zamówić jej samemu”.
-    Darczyńca i odbiorca pozostawali anonimowi wobec siebie, aby ochronić hojność oraz przyjemność z picia kawy przed niedostatkiem.
-  history_title: Where does it come from?
+    <p><b>Proszę poświęć dwie minuty żeby przeczytać tę historię, o ile nie przeczytałeś
+    go wcześniej na facebooku albo w gazecie.</b></p>
+    <p>Wszedłem do małej kawiarenki z moim przyjaciółką, każde z nas zamówiło dla siebie.
+    Gdy siadaliśmy przy stoliku dwóch ludzi podeszło do bufetu:</p>
+    <span class="quote">5 kaw poproszę. Dwie dla nas i trzy zawieszone.</span>
+    Płacą biorą swoje dwie filiżanki i wychodzą. Pytam przyjaciółki:
+    <span class="quote">Co to są zawieszone kawy?</span>
+    <span class="quote">Poczekaj zobaczysz</span>
+    <p>Jeszcze kilka osób weszło do kawiarni. Dwie kobiety zamówiły kawę, zapłaciły i wyszły.
+    Następne zamówienie to siedem kaw dla trzech prawników: <i>Trzy dla nas i cztery zawieszone</i>.</p>
+    <p>Rozważając co to takiego zawieszone kawy, podziwiam piękny widok w słonecznej pogodzie
+    ulicy znajdującej się przed kawiarnią. Nagle otwierają się drzwi. Mężczyzna w zniszczonym
+    ubraniu wyglądający jak żebrak, podchodzi do kelnerki i pyta uprzejmie:</p>
+    <span class="quote">Czy masz może zawieszona kawę?</span>
+    <p><i>To proste-ludzie płacą z góry za kawę przeznaczoną dla tych którzy nie mogą
+    sobie pozwolić na kupienie gorącego napoju. Generalnie jest to anonimowy charytatywny gest.</i></p>
+    <p class="note">W niektórych miejscach oprócz zawieszonej kawy, można zamówić <b>kanapki</b>,
+    a nawet <b>pełny posiłek</b>. Może to umożliwić bezdomnym ludziom zjeść cos bardziej odżywczego.
+    <i>Nie musi być to wcale drogie, cena może wahać się od 1$ do 13$.</i></p>
+  history_title: Skąd to się wzięło?
   history: |
-    <p>This suspended coffee (originally, "caffe sospeso" or "caffè pagato") tradition is born in Italy's southern city of Naples, but it has spread all over the world.</p>
-    <p>Historically, right after the war, many gentlemen had lost everything they had, and couldn't even afford coffee.
-    Now, being that the black hot liquid pleasure is not considered a treat, but rather a basic human right in the life of any Neapolitan, those gentlemen who could still afford to have one, took a habit of paying for two: one they drank, the other was credited, to be had by the first less fortunate peer who would casually walk in the coffeehouse, restaurant or bar.
-    The barista would then say: <i>« Would you like a coffee, sir? »</i>, Which meant: <i>there is a coffee paid for you, if you can’t afford one.</i></p>
-    <p>One 2010 account claims the tradition was over 100 years old.</p>
-    <p>The donor and the recipient would remain anonymous to each other, to protect generosity, pride, and the pleasure of coffee beyond hardships.</p>
-  why_you_title: Why you should participate?
+    <p>Tradycja zawieszonej kawy (oryginalnie, "caffe sospeso" / "caffè pagato") powstała we włoskim Neapolu
+    i rozprzestrzeniła się po całym świecie.</p>
+    <p>Biorąc pod uwagę historyczną stronę, po wojnie wielu gentelmenów straciło wszystko co miało i nie mogli
+    sobie pozwolić nawet na kawę. Obecnie ta gorąca czarna płynna przyjemność nie jest już postrzegana jako
+    czysta przyjemność, ale podstawowe prawo człowieka, w życiu niejednego neapolitańczyka Ci gentelmeni którzy
+    wciąż mogą sobie pozwolić na jedną filiżankę mają w zwyczaju płacenia za dwie. Jedną piją oni a druga jest
+    przypisywana dla biednej osoby która jako pierwsza wejdzie do kawiarni restauracji bądź baru. Wtedy barista
+    pyta ta osobę: <i>« Czy ma pan/ pani ochotę na kawę? »</i>, Co znaczy: <i>że jest tutaj kawa którą można
+    wziąć jeśli sami nie możemy pozwolić sobie na to żeby ją kupić</i>.</p>
+    <p>Tradycja ta ma ponad 100 lat.</p>
+    <p>Sponsor i obdarowany pozostają anonimowi żeby chronić hojność, dumę i przyjemność z kawy poza trudnościami.</p>
+  why_you_title: Dlaczego powinieneś dołączyć ?
   why_you: |
-    <b>As a volunteer:</b>
+    <b>Jako wolontariusz:</b>
     <ul>
-      <li>It <u>can be cheap</u> (from $1),</li>
-      <li>You can pre-pay whatever you want,</li>
-      <li>You can do it only from time to time, when you are happy,</li>
+      <li>Ponieważ jest to tanie,</li>
+      <li>Możesz zapłacić z góry kiedy tylko chcesz,</li>
+      <li>Możesz to robić tylko od czasu do czasu jak jestś szczęśliwy,</li>
     </ul>
-    <b>As a coffeehouse owner:</b>
+    <b>Jako właściciel kawiarni:</b>
     <ul>
-      <li><u>Free advertisement</u> for your place on the Internet,</li>
-      <li>Help to create a <u>trusting relationships</u> with your customers,</li>
-      <li>Curious <u>new people</u> can come in if they see a paper on your door/window,</li>
-      <li><u>Easy</u> and <u>quick</u> to do: Take a bowl and put the , or write the prepaid orders on a paper,</li>
-      <li>You can put a paper outside saying that you serve FREE COFFEE/MEAL between <u>certain hours only</u> to avoid having to serve them during rush hours,</li>
-      <li>Only the customer who want to participate can do it,</li>
-      <li>It cost you <u>no money</u>,</li>
+      <li><u>Darmowa reklama</u> Twojego biznesu w Internecie,</li>
+      <li>Pomoże stworzyć większe <u>zaufanie</u> miedzy Tobą a Twoimi klientami,</li>
+      <li></u>Ciekawscy ludzie</u> jeśli zobaczą taką kartkę na oknie Twojej restauracji to wejdą,</li>
+      <li><u>Proste</u> i <u>szybkie</u> do zrobienia: weź miseczkę i włóż do środka bilety albo napisz właściwie wskazówki na kartce,</li>
+      <li>Możesz umieści taka kartkę na zewnątrz i powiedzieć, że serwujecie DARMOWA KAWĘ lub POSIŁEK <u>tylko w określonych godzinach</u> żeby uniknąć sytuacji ze byłby by serwowane w godzinach największego ruchu,</li>
+      <li>Tylko kliencki którzy chcą uczestniczą w tym,</li>
+      <li>Nic cię to <u>nie kosztuje</u>,</li>
     </ul>
-    <p><i><u>Note</u>: We are also looking for any people who can help to spread the message to coffeehouses, some people who can help to make design / logo / posters, or anybody willing to participate to the website developement / traductions.</i></p>
-  who_follow_title: Which places does it?
+    <p><i><u>Zauważyć</u>: Napisz ze szukacie ludzi którzy rozprzestrzeniali by wieść i takiej kawiarni z
+    zawieszoną kawą, mogli by tez pomoc zrobić reklamę, ulotki, logo.</i></p>
+  who_follow_title: Jakie to są miejsca?
   who_follow: |
-    <p>Lots of places (coffeehouses, bars, restaurants, hotels) all around the world accept suspended coffees.
-    Some of them never heard about it yet, but you are free to talk to them about it so they can register on this website for free and in 5 minutes.</p>
-    <p>We are a group of volunteer that take no money for building and managing this website, so the time manual registration confirmation can vary up to 54h. Be free to send a mail for any question or complementary information at contact@coffeesharing.com</p>
-    <p>The website currently list <u><b>%{count} places</b></u> in <u><b>%{countries} countries</b></u>.</p>
-  recently_added: Recently added
-  statistics: Statistics
-  stat_places: Places <strong>%{count}</strong>
-  stat_countries: Countries <strong>%{count}</strong>
-  stat_cities: Cities <strong>%{count}</strong>
-  see_others: See others
-  countries: Countries
-  places: Places
-  about: About
-  list_places: List places
-  posters: Posters
-
+    <p>Kawiarnie restauracje / bary / hotele / które akceptują u siebie idee zawieszonej kawy.
+    Niektórzy z nich mogli o tym nie słyszeć ale możesz im o tym powiedzieć a oni mogą to
+    przyłączyć do swojej działalności wciągu 5 minut.</p>
+    <p>Jesteśmy grupą wolontariuszy, którzy nie biorą żadnych pieniędzy za budową i zarządzanie
+    stroną internetową wiec potwierdzenie ręcznej rejestracji może się wahać do 54 godzin.
+    W razie pytań lub chęci uzyskania dodatkowych informacji wyślij mail na adres contact@coffeesharing.com</p>
+    <p><p>Strona aktualnie lista <u><b>%{count} miejsca</b></u> w <u><b>%{countries} krajów</b></u>.</p></p>
+  recently_added: Ostatnio dodane
+  statistics: Statystyka
+  stat_places: Miejsca <strong>%{count}</strong>
+  stat_countries: Kraje <strong>%{count}</strong>
+  stat_cities: Miasta <strong>%{count}</strong>
+  see_others: Zobacz inne
+  countries: Kraje
+  places: Miejsca
+  about: O
+  list_places: Lista miejsc
+  posters: Plakaty
+  add_yours: Dodaj miejsce

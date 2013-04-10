@@ -1,0 +1,70 @@
+# SPANISH
+
+es:
+  lang: Spanish
+  nothing_yet: Nada por el momento. Pronto más información...
+  story_title: Ha escuchado acerca de los <span>Cafés Suspendidos</span>?
+  story: |
+    <p><b>Por favor tome 2 minutos para leer esta historia si es que aún no lo ha hecho en facebook o en algún períodico...</b></p>
+    <p>Entramos a una pequeña cafetería y ordenamos.
+    Mientras nos dirigíamos a nuestra mesa, entraron dos personas y fueron a la barra:</p>
+    <span class="quote">Cinco cafés, por favor. Dos de ellos para nosotros y tres suspendidos.</span>
+    Pagaron su cuenta, se llevaron dos cafés y se fueron. Le pregunté a mi amigo:
+    <span class="quote"> ¿Qué es eso de los cafés suspendidos?</span>
+    <span class="quote">Espera y verás...</span>
+    <p>Entró mas gente. Dos chicas ordenaron un café para cada una, pagaron y se fueron. La siguiente orden fue por siete cafés y fue hecha por tres abogados: tres para ellos y cuatro “suspendidos”.</p>
+    <p>Mientras seguía preguntándome cuál era el asunto con estos “cafés suspendidos”, disfrutaba el clima soleado y la hermosa vista de la plaza frente al café.<br/>
+    De pronto, un hombre vestido con ropas raídas que oarecía un mendigo entró por la puerta y amablemente preguntó:</p>
+    <span class="quote"> ¿Tiene un café suspendido?</span>
+    <p><i>Es sencillo... la gente paga un café por adelantado destinado a alguien que no puede pagar una bebida caliente. Es, en general, un acto anónimo de caridad.</i></p>
+    <p class="note">En algunos lugares, puedes no solamente ordenar un café, sino también un <b>sandwich</b> o una <b>comida completa</b>.
+    Esto puede permitir a las personas sin hogar tener algo más nutritivo.
+    <i>No tiene que ser caro, y puede ir desde $1 hasta $13.</i></p>
+  history_title: ¿De dónde viene esto?
+  history: |
+    <p>La tradición del café suspendido (originalmente, "caffe sospeso" or "caffè pagato") nace al sur de Italia, en Nápoles, pero se ha extendido por todo el mundo.</p>
+    <p>Historicamente, después de la guerra, muchos caballeros habían perdido todo lo que tenían, y no podían pagar ni siquiera un café.
+    Ahora, siendo que el placer negro líquido caliente no se considera un lujo, sino un derecho humano básico en la vida de cualquier napolitano, esos señores que todavía
+    podía darse el lujo de tener uno, tomaron la costumbre de pagar por dos: uno que bebian, el otro quedaba a crédito, que se daría al primer menos afortunado que casualmente
+    entrara a la cafetería, el restaurante o bar.
+    El barista decía: <i>« ¿Quisiera un café señor? »</i>, Lo cual significaba: <i>hay un café pagado para usted, si es que usted no puede pagar uno.</i></p>
+    <p>Esta tradición tiene más de 100 años.</p>
+    <p>El donador como el destinatario permanecen anónimos, para proteger la generosidad, el orgullo y el placer del café más allá de las dificultades.</p>
+  why_you_title: ¿Porqué usted debería participar?
+  why_you: |
+    <b>Como un voluntario:</b>
+    <ul>
+      <li>Esto <u>puede ser barato</u> (desde $1),</li>
+      <li>Usted puede prepagar lo que quiera,</li>
+      <li>Usted puede hacerlo sólo de vez en cuando, cuando esté feliz,</li>
+    </ul>
+    <b>Como dueño de una cafetería:</b>
+    <ul>
+      <li><u>Publicidad gratuita </u> para su negocio en Internet,</li>
+      <li>Ayudar a crear <u>relaciones de confianza</u> con su clientela,</li>
+      <li>Personas nuevas <u>curiosas</u> pueden entrar su ven un anuncio en su puerta o ventana,</li>
+      <li><u>Fácil</u> y <u>rápido </u> de hacer: Tome un tazón y ponga los tickets en el mismo, o escriba a las órdenes de prepago en un papel,</li>
+      <li>Usted puede poner un letrero afuera que diga que se sirve CAFÉ/COMIDA GRATIS en <u>ciertas horas</u> para evitar servirlas en horas pico,</li>
+      <li>Sólo el cliente que quiera participar puede hacerlo,</li>
+      <li>No te cuesta <u>dinero</u>,</li>
+    </ul>
+    <p><i><u>Note</u>: También estamos en busca de cualquier persona que pueda ayudar a difundir el mensaje a los cafés, algunas personas que puedan ayudar a
+    hacer diseño / logo / carteles, o cualquier persona dispuesta a participar en el desarrollo del sitio web / traducciones.</i></p>
+  who_follow_title: ¿Qué lugares lo hacen?
+  who_follow: |
+    <p>Muchos lugares (cafeterías, bares, restaurantes y hoteles) alrededor del mucho aceptan cafés suspendidos.
+    Algunos de ellos nunca oído hablar de esto todavía, pero usted es libre de hablar con ellos al respecto para que puedan registrarse en este sitio web de forma gratuita y en 5 minutos.</p>
+    <p>Somos un grupo de voluntarios que no toman dinero para la construcción y gestión de este sitio web, por lo que el manual del tiempo de confirmación de registro puede variar hasta 54h. Se libre de enviar un correo para cualquier duda o información complementaria en contact@coffeesharing.com</p>
+    <p>La página Web actualmente enlista <u><b>%{count} lugares</b></u> en los<u><b>%{countries} paises</b></u>.</p>
+  recently_added: Añadido recientemente
+  statistics: Estadísticas
+  stat_places: Lugares <strong>%{count}</strong>
+  stat_countries: Paises <strong>%{count}</strong>
+  stat_cities: Ciudades <strong>%{count}</strong>
+  see_others: Ver otros
+  countries: Paises
+  places: Lugares
+  about: Acerca de
+  list_places: Lista lugares
+  posters: Posters
+  add_yours: Agrega el tuyo
