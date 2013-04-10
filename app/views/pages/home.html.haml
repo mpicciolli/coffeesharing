@@ -19,8 +19,8 @@
 			%br
 
 			%h2=raw t(:who_follow_title)
-			%p=raw t(:who_follow, count:13, countries:3)
-			= link_to t(:list_places), controller:'places', action:'index', class:'yellow-button'
+			%p=raw t(:who_follow, count:@places.size, countries:@countries.size)
+			= link_to "<span>#{t(:list_places)}</span>".html_safe, places_path, class:'yellow-button'
 		.block-bottom
 
 #rightcol
@@ -46,6 +46,6 @@
 						= link_to place.name.truncate(15), place
 						%strong= place.address.city.truncate(8)
 			%br
-			%a{href:url_for(controller:'places', action:'index'), class:'yellow-button'}
+			%a{href:url_for(places_path), class:'yellow-button'}
 				%span= t(:see_others)
 		.block-bottom

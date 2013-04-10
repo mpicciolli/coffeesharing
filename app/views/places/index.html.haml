@@ -2,6 +2,7 @@
   .block
     .block-top
     .block-content
+      = link_to_function "<span>#{t(:add_yours)}</span>".html_safe, 'alert("Coming soon... Please send a mail at contact@coffeesharing.com with all your informations and we will add your place to our list.")', style:'float:right; margin:0', class:'yellow-button'
       %h2= t(:places)
       - @countries.each do |country,places|
         %h3
