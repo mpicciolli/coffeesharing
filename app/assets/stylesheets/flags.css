@@ -5,9 +5,9 @@
 }
 
 .flag {
-	width: 16px;
-	height: 11px;
-	background:url(flags.png) no-repeat;
+  width: 16px;
+  height: 11px;
+  background:url(flags.png) no-repeat;
   display: inline-block;
   margin: 3px;
 }
