@@ -6,8 +6,8 @@ pl:
   story_title: Czy słyszałeś o <span>zawieszonej kawie</span>?
   story: |
     <p><b>Proszę poświęć dwie minuty żeby przeczytać tę historię, o ile nie przeczytałeś
-    go wcześniej na facebooku albo w gazecie.</b></p>
-    <p>Wszedłem do małej kawiarenki z moim przyjaciółką, każde z nas zamówiło dla siebie.
+    jej wcześniej na facebooku albo w gazecie.</b></p>
+    <p>Wszedłem do małej kawiarenki z moją przyjaciółką, każde z nas zamówiło dla siebie.
     Gdy siadaliśmy przy stoliku dwóch ludzi podeszło do bufetu:</p>
     <span class="quote">5 kaw poproszę. Dwie dla nas i trzy zawieszone.</span>
     Płacą biorą swoje dwie filiżanki i wychodzą. Pytam przyjaciółki:
@@ -43,7 +43,7 @@ pl:
     <ul>
       <li>Ponieważ jest to tanie,</li>
       <li>Możesz zapłacić z góry kiedy tylko chcesz,</li>
-      <li>Możesz to robić tylko od czasu do czasu jak jestś szczęśliwy,</li>
+      <li>Możesz to robić tylko od czasu do czasu jak jesteś szczęśliwy,</li>
     </ul>
     <b>Jako właściciel kawiarni:</b>
     <ul>
@@ -51,18 +51,18 @@ pl:
       <li>Pomoże stworzyć większe <u>zaufanie</u> miedzy Tobą a Twoimi klientami,</li>
       <li></u>Ciekawscy ludzie</u> jeśli zobaczą taką kartkę na oknie Twojej restauracji to wejdą,</li>
       <li><u>Proste</u> i <u>szybkie</u> do zrobienia: weź miseczkę i włóż do środka bilety albo napisz właściwie wskazówki na kartce,</li>
-      <li>Możesz umieści taka kartkę na zewnątrz i powiedzieć, że serwujecie DARMOWA KAWĘ lub POSIŁEK <u>tylko w określonych godzinach</u> żeby uniknąć sytuacji ze byłby by serwowane w godzinach największego ruchu,</li>
-      <li>Tylko kliencki którzy chcą uczestniczą w tym,</li>
+      <li>Możesz umieścić taka kartkę na zewnątrz i powiedzieć, że serwujecie DARMOWA KAWĘ lub POSIŁEK <u>tylko w określonych godzinach</u> żeby uniknąć sytuacji ze były by serwowane w godzinach największego ruchu,</li>
+      <li>Tylko klienci którzy chcą uczestniczą w tym,</li>
       <li>Nic cię to <u>nie kosztuje</u>,</li>
     </ul>
-    <p><i><u>Zauważyć</u>: Napisz ze szukacie ludzi którzy rozprzestrzeniali by wieść i takiej kawiarni z
+    <p><i><u>Uwaga</u>: Napisz ze szukacie ludzi którzy rozprzestrzeniali by wieść i takiej kawiarni z
     zawieszoną kawą, mogli by tez pomoc zrobić reklamę, ulotki, logo.</i></p>
   who_follow_title: Jakie to są miejsca?
   who_follow: |
     <p>Kawiarnie restauracje / bary / hotele / które akceptują u siebie idee zawieszonej kawy.
     Niektórzy z nich mogli o tym nie słyszeć ale możesz im o tym powiedzieć a oni mogą to
     przyłączyć do swojej działalności wciągu 5 minut.</p>
-    <p>Jesteśmy grupą wolontariuszy, którzy nie biorą żadnych pieniędzy za budową i zarządzanie
+    <p>Jesteśmy grupą wolontariuszy, którzy nie biorą żadnych pieniędzy za budowę i zarządzanie
     stroną internetową wiec potwierdzenie ręcznej rejestracji może się wahać do 54 godzin.
     W razie pytań lub chęci uzyskania dodatkowych informacji wyślij mail na adres contact@coffeesharing.com</p>
     <p><p>Strona aktualnie lista <u><b>%{count} miejsca</b></u> w <u><b>%{countries} krajów</b></u>.</p></p>
