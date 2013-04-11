@@ -38,7 +38,11 @@ class Address
   end
 
   def to_s
-    "#{street}\n#{postalcode}, #{city}\n#{country}"
+    s = "#{street}\n"
+    s+= "#{postalcode}, " unless(postalcode.blank?)
+    s+= "#{city}\n"
+    s+= "#{state}\n" unless(state.blank?)
+    s+= "#{country}"
   end
 end
 
