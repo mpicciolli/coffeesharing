@@ -5,10 +5,10 @@ sw:
   nothing_yet: Inget innehåll. Mer information kommer inom kort.
   story_title: Har du hört talas om <span>Suspenderad Kaffe</span>?
   story: |
-    <p><b>Snälla ge 2 minuter av din tid för att läsa denna historia om du inte redan har läst om den på facebook eller i någon tidning...</b></p>
+    <p><b>Vänligen ge 2 minuter av din tid för att läsa denna historia om du inte redan har läst om den på facebook eller i någon tidning...</b></p>
     <p>Jag går in på ett litet café med en vän och vi gör vår beställning. 
     Medan vi sätter oss ned vid vårt bord, kommer två personer in och går fram till expediten:</p>
-    <span class="quote">”Fem koppar kaffe tack, tre till oss och två suspenderade”.</span>
+    <span class="quote">Fem koppar kaffe tack, tre till oss och två suspenderade.</span>
     De betalar, tar sina tre koppar och går. Jag frågar min vän:
     <span class="quote">Vad är en suspenderad kaffe?</span>
     <span class="quote">Vänta så ska du få se...</span>
@@ -27,11 +27,11 @@ sw:
     Baristan kunde då säga: <i>« Vill ni ha en kopp kaffe, herrn? »</i>, vilket då betydde: <i>det finns en kaffe betalad för dig, om du inte har råd med en.</i></p>
     <p>Givaren och mottagaren skulle förbli anonyma för varandra, för att skydda generositet, stolthet och glädjen med kaffe bortom svårigheter.</p>
     <p>Det påstås att denna tradition är över 100 år gammal.</p>
-      why_you_title: Varför ska du delta?
+  why_you_title: Varför ska du delta?
   why_you: |
     <b>Som en volontär:</b>
     <ul>
-      <li>Det <u>kostar lite</u> (du väljer, från 10kr),</li>
+      <li>Det <u>kostar väldigt lite</u> (från 10kr),</li>
       <li>Du väljer vad du vill ge,</li>
       <li>Du kan göra det när du vill, då och då när du känner för det.</li>
     </ul>
