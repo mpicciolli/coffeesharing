@@ -2,6 +2,7 @@
 <!--
   <li class="active"><%= link_to 'Home', controller:'pages', action:'home' %></li>
 -->
-  <li><%= link_to t(:about), controller:'pages', action:'home' %></li>
-  <li><%= link_to t(:places), controller:'places', action:'index' %></li>
+  <li<%=' class="active"' if(current_page?(root_path))%>><%= link_to t(:about), root_path %></li>
+  <li<%=' class="active"' if(current_page?(places_path))%>><%= link_to t(:places), places_path %></li>
+  <li<%=' class="active"' if(current_page?(places_path))%>><%= link_to t(:posters), posters_path %></li>
 </ul>

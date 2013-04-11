@@ -2,10 +2,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def about
-  end
-
-  def contact
+  def posters
   end
 
   def contributors
