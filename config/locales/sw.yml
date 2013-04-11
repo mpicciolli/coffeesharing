@@ -1,68 +1,65 @@
-# SWEDISH
+# SVENSKA
 
 sw:
-  lang: Swedish
-  nothing_yet: Nothing yet. More informations soon...
-  story_title: Have you heard about <span>Suspended Coffees</span>?
+  lang: Svenska
+  nothing_yet: Inget innehåll. Mer information kommer inom kort.
+  story_title: Har du hört talas om <span>Suspenderad Kaffe</span>?
   story: |
-    <p><b>Please take 2 minutes to read this story if you haven't already read it somewhere on facebook or in a newspaper...</b></p>
-    <p>We enter a little coffeehouse with a friend of mine and give our order.
-    While we're approaching our table two people come in and they go to the counter:</p>
-    <span class="quote">Five coffees, please. Two of them for us and three suspended.</span>
-    They pay for their order, take the two and leave. I ask my friend:
-    <span class="quote">What are those 'suspended' coffees?</span>
-    <span class="quote">Wait for it and you will see...</span>
-    <p>Some more people enter. Two girls ask for one coffee each, pay and go. The next order was for seven coffees and it was made by three lawyers: three for them and four 'suspended'.</p>
-    <p>While I still wonder what's the deal with those 'suspended' coffees, I enjoy the sunny weather and the beautiful view towards the square in front of the cafe.<br/>
-    Suddenly a man dressed in shabby clothes who looks like a beggar comes in through the door and kindly asks:</p>
-    <span class="quote">Do you have a suspended coffee?</span>
-    <p><i>It's simple... people pay in advance for a coffee meant for someone who cannot afford a warm beverage. It is generally an anonymous act of charity.</i></p>
-    <p class="note">In some places, you can not only order a coffee, but also a <b>sandwich</b> or a <b>full meal</b>.
-    This can enable homeless people to have something a bit more nutritious.
-    <i>It doesn't have to be expansive, and can go from $1 to $13.</i></p>
-  history_title: Where does it come from?
+    <p><b>Snälla ge 2 minuter av din tid för att läsa denna historia om du inte redan har läst om den på facebook eller i någon tidning...</b></p>
+    <p>Jag går in på ett litet café med en vän och vi gör vår beställning. 
+    Medan vi sätter oss ned vid vårt bord, kommer två personer in och går fram till expediten:</p>
+    <span class="quote">”Fem koppar kaffe tack, tre till oss och två suspenderade”.</span>
+    De betalar, tar sina tre koppar och går. Jag frågar min vän:
+    <span class="quote">Vad är en suspenderad kaffe?</span>
+    <span class="quote">Vänta så ska du få se...</span>
+    <p>Ytterligare några personer kommer in. Två kvinnor beställer varsin kaffe, betalar och går. Nästa beställning var sju koppar kaffe och gjorda av tre advokater, tre för dem och fyra suspenderade.</p>
+    <p>Medan jag fortfarande funderar över vad som menas med suspenderad kaffe, njuter jag av det soliga vädret och den fina utsikten över torget utanför caféet.<br/>
+    Plötsligt kommer en man i sjabbiga kläder liknande en tiggare in genom dörren och frågar vänligt:</p>
+    <span class="quote">Har ni suspenderad kaffe?</span>
+    <p><i>Det är enkelt… människor betalar i förskott för en kaffe som tillägnas någon som själv inte har råd att köpa en varm dryck. Det är i regel en anonym välgörenhetshandling.</i></p>
+    <p class="note">På vissa ställen kan man, förutom kaffe, även beställa en <b>smörgås</b> eller en <b>hel måltid</b>.
+    Detta gör att de människor man hjälper kan få något mer näringsrikt.
+    <i>Det behöver inte kosta mycket, runt 10kr och uppåt.</i></p>
+  history_title: Varifrån härstammar detta?
   history: |
-    <p>This suspended coffee (originally, "caffe sospeso" or "caffè pagato") tradition is born in Italy's southern city of Naples, but it has spread all over the world.</p>
-    <p>Historically, right after the war, many gentlemen had lost everything they had, and couldn't even afford coffee.
-    Now, being that the black hot liquid pleasure is not considered a treat, but rather a basic human right in the life of any Neapolitan, those gentlemen who could still afford to have one, took a habit of paying for two: one they drank, the other was credited, to be had by the first less fortunate peer who would casually walk in the coffeehouse, restaurant or bar.
-    The barista would then say: <i>« Would you like a coffee, sir? »</i>, Which meant: <i>there is a coffee paid for you, if you can’t afford one.</i></p>
-    <p>One 2010 account claims the tradition was over 100 years old.</p>
-    <p>The donor and the recipient would remain anonymous to each other, to protect generosity, pride, and the pleasure of coffee beyond hardships.</p>
-  why_you_title: Why you should participate?
+    <p>Traditionen med suspenderad kaffe ("caffe sospeso" eller "caffè pagato" på Italienska) föddes i Naples i södra Italien, och har sedan spridits över hela världen.</p>
+    <p>Efter kriget hade många män förlorat allt de ägde och de hade således inte råd att ens köpa en kaffe. Eftersom den svarta varma vätskans njutning inte sågs som ett hot utan snarare en grundläggande mänsklig rättighet för varje italienare i Neaples, valde de män som fortfarande hade råd att köpa kaffe, att börja med vanan att betala för två, en som de drack och en extra betalad, att ge till den första mindre lyckligt lottade som kom till caféet, restaurangen eller baren.
+    Baristan kunde då säga: <i>« Vill ni ha en kopp kaffe, herrn? »</i>, vilket då betydde: <i>det finns en kaffe betalad för dig, om du inte har råd med en.</i></p>
+    <p>Givaren och mottagaren skulle förbli anonyma för varandra, för att skydda generositet, stolthet och glädjen med kaffe bortom svårigheter.</p>
+    <p>Det påstås att denna tradition är över 100 år gammal.</p>
+      why_you_title: Varför ska du delta?
   why_you: |
-    <b>As a volunteer:</b>
+    <b>Som en volontär:</b>
     <ul>
-      <li>It <u>can be cheap</u> (from $1),</li>
-      <li>You can pre-pay whatever you want,</li>
-      <li>You can do it only from time to time, when you are happy,</li>
+      <li>Det <u>kostar lite</u> (du väljer, från 10kr),</li>
+      <li>Du väljer vad du vill ge,</li>
+      <li>Du kan göra det när du vill, då och då när du känner för det.</li>
     </ul>
-    <b>As a coffeehouse owner:</b>
+    <b>Som en ägare till ett café:</b>
     <ul>
-      <li><u>Free advertisement</u> for your business on the Internet,</li>
-      <li>Help to create a <u>trusting relationships</u> with your customers,</li>
-      <li>Curious <u>new people</u> can come in if they see a paper on your door/window,</li>
-      <li><u>Easy</u> and <u>quick</u> to do: Take a bowl and put the tickets in it, or write the prepaid orders on a paper,</li>
-      <li>You can put a paper outside saying that you serve FREE COFFEE/MEAL between <u>certain hours only</u> to avoid having to serve them during rush hours,</li>
-      <li>Only the customer who want to participate can do it,</li>
-      <li>It cost you <u>no money</u>,</li>
+      <li><u>Gratis reklam</u> för ditt företag på internet,</li>
+      <li>Hjälp med att skapa <u>pålitliga relationer</u> med dina kunder,</li>
+      <li>Nyfikna <u>nya kunder</u> kan tillkomma om de ser information på din/ditt dörr/fönster,</li>
+      <li><u>Lätt</u> och <u>enkelt</u> att göra: Placera kvitton på allt förbetalt i en skål eller skriv ner på ett papper,</li>
+      <li>Du kan ha synlig information utanför som säger GRATIS KAFFE/MÅLTID under en <u>specifik tid</u> för att undvika allt för mycket jobb vid rusningstid,</li>
+      <li>Kunder får välja själva om de vill delta eller inte,</li>
+      <li>Det <u>kostar ingenting</u>,</li>
     </ul>
-    <p><i><u>Note</u>: We are also looking for any people who can help to spread the message to coffeehouses, some people who can help to make design / logo / posters, or anybody willing to participate to the website developement / traductions.</i></p>
-  who_follow_title: Which places does it?
+    <p><i><u>Notera</u>: Vi letar även efter personer som kan hjälpa till med att sprida information till olika caféer och liknande, som kan hjälpa till med design / logo / posters eller som kan delta i sidans utveckling / översättningar m.m.</i></p>
+  who_follow_title: Vilka ställen deltar?
   who_follow: |
-    <p>Lots of places (coffeehouses, bars, restaurants, hotels) all around the world accept suspended coffees.
-    Some of them never heard about it yet, but you are free to talk to them about it so they can register on this website for free and in 5 minutes.</p>
-    <p>We are a group of volunteer that take no money for building and managing this website, so the time manual registration confirmation can vary up to 54h. Be free to send a mail for any question or complementary information at contact@coffeesharing.com</p>
-    <p>The website currently list <u><b>%{count} places</b></u> in <u><b>%{countries} countries</b></u>.</p>
-  recently_added: Recently added
-  statistics: Statistics
-  stat_places: Places <strong>%{count}</strong>
-  stat_countries: Countries <strong>%{count}</strong>
-  stat_cities: Cities <strong>%{count}</strong>
-  see_others: See others
-  countries: Countries
-  places: Places
-  about: About
-  list_places: List places
+    <p>Många ställen (caféer, barer, restauranger och hotel) runt om i världen accepterar suspenderad kaffe. Vissa har inte hört talas om detta ännu, och i så fall så är du välkommen att berätta detta för dem och att de kan registrera sig på den här sidan, vilket är gratis och endast tar 5 minuter.</p>
+    <p>Vi är en grupp med volontärer som gratis hjälper till att utveckla och hantera den här sidan, vilket betyder att den manuella registreringsbekräftelsen kan ta upp till 54h. Du är välkommen att skicka ett mail med frågor eller kompletterande information till contact@coffeesharing.com</p>
+    <p>Den här sidan visar nuvarande <u><b>%{count} ställen</b></u> i <u><b>%{countries} länder</b></u>.</p>
+  recently_added: Nyligen tillagda
+  statistics: Statistik
+  stat_places: Ställen <strong>%{count}</strong>
+  stat_countries: Länder <strong>%{count}</strong>
+  stat_cities: Städer <strong>%{count}</strong>
+  see_others: Se fler
+  countries: Länder
+  places: Ställen
+  about: Om
+  list_places: Visa ställen
   posters: Posters
-
 
