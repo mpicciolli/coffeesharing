@@ -11,9 +11,14 @@ gem 'haml-rails'                                 # Use HAML instead of ERB to ge
 gem 'jquery-rails'                               # Use jQuery (and not Prototype) as JS framework
 gem 'rails-i18n'                                 # Translations for ruby on rails
 gem 'http_accept_language'                       # Extract the accepted language from http request
+gem 'gmaps4rails'                                # Google Maps for ruby on rails
 gem 'mongoid', '~> 3.0.0'                        # NoSQL Database (mongodb)
 gem 'mongoid_spacial'                            # Geo special extension for mongoid
-gem 'gmaps4rails'                                # Google Maps for ruby on rails
+gem 'mongoid_search'                             # Full text search for mongoid orm
+gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid' # File upload implementation through GridFS
+gem 'activeadmin-mongoid', git:'git://github.com/elia/activeadmin-mongoid.git', branch:'latest' # Administration portal (version for mongoid)
+gem 'devise'                                     # User authentication
+gem 'cancan'                                     # User authorization (roles, ...)
 
 # Gems used only in **PRODUCTION** !
 group :production do

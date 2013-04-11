@@ -5,7 +5,7 @@ require "action_controller/railtie"
 require "action_mailer/railtie"
 require "active_resource/railtie"
 require "rails/test_unit/railtie"
-require "sprockets/railtie" # Uncomment this line for Rails 3.1+
+require "sprockets/railtie"
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
@@ -63,5 +63,8 @@ module Coffeesharing
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Force your application to not access the DB or load models when precompiling your assets
+    config.assets.initialize_on_precompile = false
   end
 end
