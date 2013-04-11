@@ -1,7 +1,9 @@
 .languages {
-  float: right;
-  width: 75px;
+  width: 101px;/*25*???*/
   margin: 15px 40px 15px 0px;
+  position: absolute;
+  top: 240px;
+  left: 98px;
 }
 
 .flag {
@@ -14,6 +16,14 @@
 .flag.active {
   border: 3px solid black;
   margin: 0;
+}
+.flag.disabled {
+  opacity: 0.2;
+  filter: saturate(50%);
+  -webkit-filter: saturate(50%);
+  -moz-filter: saturate(50%);
+  -o-filter: saturate(50%);
+  -ms-filter: saturate(50%);
 }
 
 .flag.flag-ad {background-position: -16px 0}
