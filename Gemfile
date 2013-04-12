@@ -12,6 +12,7 @@ gem 'jquery-rails'                               # Use jQuery (and not Prototype
 gem 'rails-i18n'                                 # Translations for ruby on rails
 gem 'http_accept_language'                       # Extract the accepted language from http request
 gem 'gmaps4rails'                                # Google Maps for ruby on rails
+#gem ''                             # Provide a select helper with a list of iso3166 countries
 gem 'mongoid', '~> 3.0.0'                        # NoSQL Database (mongodb)
 gem 'mongoid_spacial'                            # Geo special extension for mongoid
 gem 'mongoid_search'                             # Full text search for mongoid orm

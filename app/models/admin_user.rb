@@ -1,5 +1,6 @@
 class AdminUser
   include Mongoid::Document
+  ROLES = %w(guest user businessowner moderator admin superadmin)
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
@@ -37,4 +38,23 @@ class AdminUser
 
   ## Token authenticatable
   # field :authentication_token, :type => String
+  
+  ## Authorization
+  field :role,               :type => Integer, :default => 0
+  field :countries,          :type => Array
+  field :cities,             :type => Array
+  
+  ## Other infos
+  field :first_name,         :type => String
+  field :last_name,          :type => String
+  
+  # Privileges are inherited between roles in the order specified in the ROLES
+  # array. E.g. A moderator can do the same as an editor + more.
+  #
+  # This method understands that and will therefore return true for moderator
+  # users even if you call `role?('editor')`.
+  def role?(base_role)
+    return false unless role # A user have a role attribute. If not set, the user does not have any roles.
+    ROLES.index(base_role.to_s) <= ROLES.index(role)
+  end
 end

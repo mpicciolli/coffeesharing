@@ -3,6 +3,14 @@ class ApplicationController < ActionController::Base
   before_filter :set_locale
   protect_from_forgery
 
+  rescue_from CanCan::AccessDenied do |exception|
+    redirect_to admin_dashboard_path, :alert => exception.message
+  end
+
+  def current_ability
+    @current_ability ||= AdminAbility.new(current_admin_user)
+  end
+
 private
   def set_locale
     if params[:lang] && I18n.available_locales.include?(params[:lang].to_sym)

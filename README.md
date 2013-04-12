@@ -18,7 +18,7 @@ Be free to fork the project and propose your improvements. ;)
 
 **License   :** GPLv3
 
-**Version   :** 1.0
+**Version   :** 2.0
 
 **URL       :** http://www.coffeesharing.com/
 
@@ -28,7 +28,7 @@ Be free to fork the project and propose your improvements. ;)
 Brainstorming
 -------------
 
-Note: Give all your ideas. This is a sh*t website coded in one weekend. Nothing existed and I thought that people needed something since it's not easy to know which place accept suspended coffees otherwise. Some of them seems to refuse the movement. If you have any question/remarks/advices/ideas, drop me a mail at the address above or use http://coffeesharing.uservoice.com/.
+Note: Give all your ideas. This is only a simple website coded quickly. Nothing existed and I thought that people needed something since it's not easy to know which place accept suspended coffees otherwise. Some of them seems to refuse the movement. If you have any question/remarks/advices/ideas, drop me a mail at the address above or use http://coffeesharing.uservoice.com/.
 
 * Pay online for a suspended coffee (complicated to send back the money)
 * People can vote for coffee places (cheat? :s)
