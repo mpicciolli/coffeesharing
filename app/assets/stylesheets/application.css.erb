@@ -13,14 +13,15 @@
  *= require 'flags'
  *= require 'gmaps4rails'
  *= require_self
+ *= require 'places'
  */
 
-.social {
+.share {
   position: absolute;
   left: 250px;
   top: 197px;
 }
-.social a {
+.share a {
   background-color: transparent;
   height: 20px;
   width: 85px;
@@ -84,11 +85,61 @@ h1.shop span {
   color: white;
 }
 
+.social {
+  height: 131px;
+  width: 274px;
+  position:absolute;
+  margin-top: -130px;
+  margin-left: 202px;
+}
+.social a {position:absolute;}
+.social .facebook {
+  background: url(<%=asset_path "social-facebook.png"%>) no-repeat;
+  height: 48px;
+  width: 33px;
+  left: 32px;
+  top: 56px;
+}
+.social .googleplus {
+  background: url(<%=asset_path "social-googleplus.png"%>) no-repeat;
+  height: 46px;
+  width: 31px;
+  left: 78px;
+  top: 54px;
+}
+.social .yelp {
+  background: url(<%=asset_path "social-yelp.png"%>) no-repeat;
+  height: 48px;
+  width: 33px;
+  left: 125px;
+  top: 56px;
+}
+.social .foursquare {
+  background: url(<%=asset_path "social-foursquare.png"%>) no-repeat;
+  height: 44px;
+  width: 29px;
+  left: 159px;
+  top: 58px;
+}
+.social .youtube {
+  background: url(<%=asset_path "social-youtube.png"%>) no-repeat;
+  height: 42px;
+  width: 29px;
+  left: 102px;
+  top: 52px;
+}
+.social .twitter {
+  background: url(<%=asset_path "social-twitter.png"%>) no-repeat;
+  height: 30px;
+  width: 21px;
+  left: 64px;
+  top: 58px;
+}
+
 .showplace .block-content b {
   padding-bottom: 10px;
 }
 .showplace .block-content div {
   padding-left: 10px;
 }
-
 

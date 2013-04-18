@@ -1,3 +1,14 @@
 // Place all the styles related to the places controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.timerange .label:after {content:" : ";}
+.timerange .label {
+  text-align: right;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 5px;
+  width: 100px;
+}
+.timerange i { font-style: normal; }
+.showplace div.timerange { padding: 0; }

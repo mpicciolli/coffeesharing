@@ -14,16 +14,17 @@ gem 'http_accept_language'                       # Extract the accepted language
 gem 'gmaps4rails'                                # Google Maps for ruby on rails
 #gem ''                             # Provide a select helper with a list of iso3166 countries
 gem 'mongoid', '~> 3.0.0'                        # NoSQL Database (mongodb)
+gem 'mongoid_userstamp'                          # Add created_by and updated_by fields
 gem 'mongoid_spacial'                            # Geo special extension for mongoid
 gem 'mongoid_search'                             # Full text search for mongoid orm
 gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid' # File upload implementation through GridFS
 gem 'activeadmin-mongoid', git:'git://github.com/elia/activeadmin-mongoid.git', branch:'latest' # Administration portal (version for mongoid)
 gem 'devise'                                     # User authentication
 gem 'cancan'                                     # User authorization (roles, ...)
+gem 'nokogiri'                                   # HTML parser (to build scrappers)
 
 # Gems used only in **PRODUCTION** !
 group :production do
-  gem 'pg'                                       # Database (PostGre sql)
   gem 'thin'                                     # Fast & evented webserver for rails
   gem 'therubyracer'                             # Google V8 javascript engine (embeded)
   gem 'foreman'                                  # Process manager for heroku (cedar stack)
@@ -31,7 +32,6 @@ end
 
 # Gems used only for **DEV** !
 group :development do
-  gem 'sqlite3'                                  # Database (SQLite)
   gem 'heroku'                                   # Tools for hosting on heroku PAAS platform
   gem 'translate-rails3', :require => 'translate'# Add a web interface for easy translations
 end

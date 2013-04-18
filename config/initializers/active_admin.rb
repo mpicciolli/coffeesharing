@@ -56,6 +56,8 @@ ActiveAdmin.setup do |config|
   # This setting changes the method which Active Admin calls
   # within the controller.
   config.authentication_method = :authenticate_admin_user!
+  config.authorization_adapter = ActiveAdmin::CanCanAdapter
+  config.cancan_ability_class = "AdminAbility"
 
 
   # == Current User
@@ -134,6 +136,7 @@ ActiveAdmin.setup do |config|
   #
   # To load a stylesheet:
   #   config.register_stylesheet 'my_stylesheet.css'
+  config.register_stylesheet 'places.css'
 
   # You can provide an options hash for more control, which is passed along to stylesheet_link_tag():
   #   config.register_stylesheet 'my_print_stylesheet.css', :media => :print
@@ -205,9 +208,11 @@ ActiveAdmin.setup do |config|
   # hand side with a filter for each attribute of the registered model.
   # You can enable or disable them for all resources here.
   #
-  # config.filters = true
+  config.filters = false
+end
 
-
+module ActiveAdmin::ViewHelpers
+  include PlacesHelper
 end
 
 ActiveAdmin::ResourceController.class_eval do

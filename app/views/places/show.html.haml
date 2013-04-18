@@ -1,26 +1,28 @@
 %h1.shop= shop_title @place.name
+.social
+  =link_to '', @place.twitter,     class:'twitter', alt:"#{@place.twitter_name} is on Twitter" unless(@place.twitter.blank?)
+  =link_to '', @place.youtube,     class:'youtube', alt:"#{@place.name} is on YouTube"         unless(@place.youtube.blank?)
+  =link_to '', @place.foursquare,  class:'foursquare', alt:"#{@place.name} is on Foursquare"   unless(@place.foursquare.blank?)
+  =link_to '', @place.yelp,        class:'yelp', alt:"#{@place.name} is on Yelp"               unless(@place.yelp.blank?)
+  =link_to '', @place.google_plus, class:'googleplus', alt:"#{@place.name} is on Google+"      unless(@place.google_plus.blank?)
+  =link_to '', @place.facebook,    class:'facebook', alt:"#{@place.name} is on Facebook"       unless(@place.facebook.blank?)
 
 #leftcol.showplace
   .block
     .block-top
     .block-content
-      %p
-        %b Contact:
-        .phone= @place.phone
-        .email= @place.email
-        .website= @place.website
-      %p
-        %b Other:
-        .wifi="- Free WiFi Access" if @place.wifi
-        .takeout="- Take away" if @place.takeout
-        .notes=simple_format @place.notes
+      = block(@place, :infos, :notes)
+      = array_of :phones, @place
+      = array_of :emails, @place
+      %p= workhours @place
+      %p= freehours @place
+      = extra @place
     .block-bottom
 
 #rightcol.showplace
   .block
     .block-top
     .block-content
-      %p
-        %b Address:
-        .address=simple_format @place.address.to_s
+      = block @place, :address
+      = array_of(:websites, @place) {|e| link_to(e, "http://#{e}", :rel => 'nofollow') }
     .block-bottom

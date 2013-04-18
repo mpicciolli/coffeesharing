@@ -1,16 +1,20 @@
 class AdminUser
   include Mongoid::Document
+  include Mongoid::Timestamps
+  include Mongoid::Userstamp
+
   ROLES = %w(guest user businessowner moderator admin superadmin)
+
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, 
+  devise :database_authenticatable,
          :recoverable, :rememberable, :trackable, :validatable
 
   ## Database authenticatable
   field :email,              :type => String, :default => ""
   field :encrypted_password, :type => String, :default => ""
-  
+
   ## Recoverable
   field :reset_password_token,   :type => String
   field :reset_password_sent_at, :type => Time
@@ -38,16 +42,41 @@ class AdminUser
 
   ## Token authenticatable
   # field :authentication_token, :type => String
-  
+
   ## Authorization
   field :role,               :type => Integer, :default => 0
   field :countries,          :type => Array
   field :cities,             :type => Array
-  
+
   ## Other infos
   field :first_name,         :type => String
   field :last_name,          :type => String
-  
+
+  def title
+    if(first_name && last_name)
+      "#{first_name} #{last_name}"
+    else
+      email
+    end
+  end
+  def title_with_details
+    permissions = role?(:admin) ? ROLES[role].capitalize : "Moderator of #{(countries || []).concat(cities || []).to_sentence}"
+    "#{title} (#{permissions})"
+  end
+
+  def countries_list=(value)
+    write_attribute(:countries, (value.class == String) ? value.split(/\s*,\s*/) : [])
+  end
+  def cities_list=(value)
+    write_attribute(:cities, (value.class == String) ? value.split(/\s*,\s*/) : [])
+  end
+  def countries_list
+    countries.join(', ') if(countries)
+  end
+  def cities_list
+    cities.join(', ') if(cities)
+  end
+
   # Privileges are inherited between roles in the order specified in the ROLES
   # array. E.g. A moderator can do the same as an editor + more.
   #
@@ -55,6 +84,6 @@ class AdminUser
   # users even if you call `role?('editor')`.
   def role?(base_role)
     return false unless role # A user have a role attribute. If not set, the user does not have any roles.
-    ROLES.index(base_role.to_s) <= ROLES.index(role)
+    ROLES.index(base_role.to_s) <= role
   end
 end

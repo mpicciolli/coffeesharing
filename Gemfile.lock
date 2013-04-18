@@ -151,12 +151,14 @@ GEM
     mongoid_spacial (0.2.16)
       activesupport (~> 3.0)
       mongoid (>= 2.3.0)
+    mongoid_userstamp (0.2.1)
+      mongoid (>= 3.0.4)
     moped (1.4.5)
     multi_json (1.7.2)
     netrc (0.7.7)
+    nokogiri (1.5.9)
     origin (1.0.11)
     orm_adapter (0.4.0)
-    pg (0.15.0)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -203,7 +205,6 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.7)
     therubyracer (0.11.4)
       libv8 (~> 3.11.8.12)
       ref
@@ -246,11 +247,11 @@ DEPENDENCIES
   mongoid (~> 3.0.0)
   mongoid_search
   mongoid_spacial
-  pg
+  mongoid_userstamp
+  nokogiri
   rails (= 3.2.13)
   rails-i18n
   sass-rails (~> 3.2.3)
-  sqlite3
   therubyracer
   thin
   translate-rails3

@@ -2,14 +2,23 @@
   .block
     .block-top
     .block-content
-      %h2 General
+      %h2 Moderators
       %ul
         %li
-          %u Story
-          = ": UNKNOWN"
+          %u Helena Tande-Stageberg
+          = ": Norway (norway@coffeesharing.com)"
         %li
-          %u Logo "Suspended Coffee Supporter"
-          = ": Totoro (from Sydney)"
+          %u Saskia Rüdiger
+          = ": Germany (germany@coffeesharing.com)"
+        %li
+          Australia
+          %ul
+            %li
+              %u Declan & Jett
+              = ": Melbourne (melbourne@coffeesharing.com)"
+            %li
+              %u Pariss Rees
+              = ": Brisbane/Queensland (brisbane@coffeesharing.com)"
       %h2 Translators
       %ul
         %li
@@ -30,6 +39,17 @@
         %li
           %u German
           = ": Saskia Rüdiger"
+      %h2 Various
+      %ul
+        %li
+          %u Original blog post
+          = ": Majla Paoli (from accidentaltourist.com)"
+        %li
+          %u Original story
+          = ": ???"
+        %li
+          %u Logo "Suspended Coffee Supporter"
+          = ": Totoro (from Sydney)"
     .block-bottom
 
 #rightcol
@@ -38,6 +58,6 @@
     .block-content
       %h3 Site developers
       %ul
-        %li - William Hubault
+        %li= mail_to 'william@coffeesharing.com', '- William Hubault'
         %li - Dellustrations team
     .block-bottom

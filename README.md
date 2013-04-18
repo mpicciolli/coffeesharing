@@ -38,5 +38,3 @@ Note: Give all your ideas. This is only a simple website coded quickly. Nothing 
 
 * Cache
 * Add category
-* Form to register online (without manual activation? add Captcha)
-

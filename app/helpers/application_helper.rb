@@ -2,7 +2,7 @@ module ApplicationHelper
   def asset_url asset
     "#{request.protocol}#{request.host_with_port}#{asset_path(asset)}"
   end
-  
+
   def social_buttons
     # Compute the informations
     account = "coffeesharing"
@@ -18,16 +18,16 @@ module ApplicationHelper
     else
       ttitle = ftitle = "Coffee Sharing"
     end
-    
+
     # Compute the links
     t = social_link :twitter, "http://twitter.com/share?text=#{u ttitle}&url=#{u url}&via=#{account}&related=#{account}"
     f = social_link :facebook, "http://www.facebook.com/sharer.php?s=100&p[title]=#{u ftitle}&p[summary]=#{u description}&p[url]=#{u url}&p[images][0]=#{u image}"
     p = social_link :plus, "https://plus.google.com/share?url=#{u url}"
-    
+
     # return the 3 links
-    content_tag :div, t + f + p, class:'social'
+    content_tag :div, t + f + p, class:'share'
   end
-  
+
 private
   def social_link (name, url)
     link_to_function '', "window.open('#{url}','sharer','toolbar=0,status=0,width=548,height=325');", class:name
