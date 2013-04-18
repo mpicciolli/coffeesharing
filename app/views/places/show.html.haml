@@ -1,4 +1,5 @@
-%h1.shop= shop_title @place.name
+%h1.shop= shop_title @place
+
 .social
   =link_to '', @place.twitter,     class:'twitter', alt:"#{@place.twitter_name} is on Twitter" unless(@place.twitter.blank?)
   =link_to '', @place.youtube,     class:'youtube', alt:"#{@place.name} is on YouTube"         unless(@place.youtube.blank?)

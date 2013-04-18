@@ -1,15 +1,16 @@
 module PlacesHelper
   @@weekdays = I18n.t(:"date.day_names")
 
-  def shop_title (name)
-    size = case name.size
+  def shop_title (place)
+    size = case place.name.size
       when 0..16  then 60
       when 17..20 then 50
       when 21..26 then 40
       when 27..34 then 30
       else 20
     end
-    "<span style=\"font-size:#{size}px;\">#{name.truncate(50)}</span>".html_safe
+    click = (current_admin_user) ? ' onClick="window.location=\''+edit_admin_place_url(place)+'\';"' : ''
+    "<span style=\"font-size:#{size}px;\"#{click}>#{place.name.truncate(50)}</span>".html_safe
   end
 
   def array_of (sym, place, &block)
