@@ -109,7 +109,7 @@ class Place
 
   # Fill everything with facebook informations (quicker ;])
   before_validation do |place|
-    fill_with_facebook(place) if(place.name.blank?)
+    Place.fill_with_facebook(place) if(place.name.blank?)
     place.fill_with_googleplus if(place.name.blank?)
     place.fill_with_yelp if(place.name.blank?)
   end
