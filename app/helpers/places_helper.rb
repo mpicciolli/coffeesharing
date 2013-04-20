@@ -53,7 +53,7 @@ module PlacesHelper
     if (extended)
       # Print a 7 days summary (each day + time) using the timeranges stored in the database
       s+= (1..7).inject('') { |s,i|
-        n = i%6
+        n = i%7
         label = content_tag :span, @@weekdays[n], class:'label'
         time  = ranges.map {|e| e.include?(n) ? e.time_to_s : nil }.compact.first ||
                 content_tag(:i, t(:closed))
