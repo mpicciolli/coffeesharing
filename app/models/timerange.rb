@@ -5,13 +5,13 @@ class TimeRange
   embedded_in :workhour, polymorphic: true
   embedded_in :freehour, polymorphic: true
 
-  field :from_day, type:Integer
-  field :to_day, type:Integer
+  field :from_day, type:Integer, default: 0
+  field :to_day, type:Integer, default: 0
   field :from_time, type:Time
   field :to_time, type:Time
 
   def include?(n)
-    from_day <= n && to_day >= n
+    !from_day.nil? && !to_day.nil? && from_day <= n && to_day >= n
   end
   def days_to_s
     w = I18n.t(:"date.abbr_day_names")
