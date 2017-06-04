@@ -1,5 +1,5 @@
 source "http://rubygems.org"
-ruby "1.9.3"
+ruby "1.9.3-p551"
 
 # Use the last stable version of Ruby on Rails...
 gem "rails", "3.2.13"
