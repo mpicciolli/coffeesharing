@@ -1,5 +1,4 @@
 source "http://rubygems.org"
-gem install bundler --pre
 ruby "1.9.3"
 
 # Use the last stable version of Ruby on Rails...
